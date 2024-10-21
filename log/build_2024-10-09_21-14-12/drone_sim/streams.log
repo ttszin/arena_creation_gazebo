@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.461s] [0mCMake Error: The current CMakeCache.txt directory /home/teteu/ros2_ws/src/drone_sim/build/drone_sim/CMakeCache.txt is different than the directory /home/teteu/drone_sim/build/drone_sim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.575s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.607s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+[0.620s] -- Install configuration: ""
+[0.621s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.622s]   file INSTALL cannot find "/home/teteu/drone_sim/launch": No such file or
+[0.622s]   directory.
+[0.622s] 
+[0.622s] [0m
+[0.624s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim

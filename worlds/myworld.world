@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="drone_world">
+    <!-- Plano de chão -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Paredes -->
+    <include>
+      <uri>model://wall</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://wall</uri>
+      <pose>10 0 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://wall</uri>
+      <pose>10 10 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://wall</uri>
+      <pose>0 10 0 0 0 4.71</pose>
+    </include>
+
+    <!-- Adicione ruas ou mais obstáculos aqui -->
+
+    <!-- Drone -->
+    <include>
+      <uri>model://iris</uri>
+      <pose>5 5 0.5 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

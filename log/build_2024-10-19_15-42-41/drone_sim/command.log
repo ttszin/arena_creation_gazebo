@@ -1,0 +1,2 @@
+Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/teteu/ros2_ws/src/drone_sim -DCMAKE_INSTALL_PREFIX=/home/teteu/ros2_ws/src/drone_sim/install/drone_sim
+Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/teteu/ros2_ws/src/drone_sim -DCMAKE_INSTALL_PREFIX=/home/teteu/ros2_ws/src/drone_sim/install/drone_sim

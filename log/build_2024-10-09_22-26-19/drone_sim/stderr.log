@@ -1,0 +1,6 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/teteu/ros2_ws/src/drone_sim/build/drone_sim/CMakeCache.txt is different than the directory /home/teteu/drone_sim/build/drone_sim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/teteu/drone_sim/launch": No such file or
+  directory.
+
+[0m

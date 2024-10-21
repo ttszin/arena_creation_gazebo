@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.022s] [0mCMake Error: The current CMakeCache.txt directory /home/teteu/ros2_ws/src/drone_sim/build/drone_sim/CMakeCache.txt is different than the directory /home/teteu/drone_sim/build/drone_sim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.191s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.287s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.287s] -- Configured cppcheck include dirs: 
+[0.287s] -- Configured cppcheck exclude dirs and/or files: 
+[0.289s] -- Added test 'lint_cmake' to check CMake code style
+[0.297s] -- Added test 'uncrustify' to check C / C++ code style
+[0.297s] -- Configured uncrustify additional arguments: 
+[0.298s] -- Added test 'xmllint' to check XML markup files
+[0.299s] -- Configuring done
+[0.303s] -- Generating done
+[0.304s] -- Build files have been written to: /home/teteu/drone_sim/build/drone_sim
+[0.326s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/teteu/ros2_ws/src/drone_sim/build/drone_sim -- -j4 -l4
+[0.361s] Invoking command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
+[0.370s] -- Install configuration: ""
+[0.370s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.370s]   file INSTALL cannot find "/home/teteu/drone_sim/launch": No such file or
+[0.370s]   directory.
+[0.370s] 
+[0.371s] [0m
+[0.372s] Invoked command in '/home/teteu/ros2_ws/src/drone_sim/build/drone_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/teteu/ros2_ws/src/drone_sim/build/drone_sim
